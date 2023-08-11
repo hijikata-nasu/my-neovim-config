@@ -21,5 +21,7 @@ return require('packer').startup(function(use)
   -- use 'プラグインB'
   -- プラグイン追加後は`:PackerInstall`でプラグインをインストールする
   --
-  use 'folke/tokyonight.nvim'
+  use 'folke/tokyonight.nvim'   -- カラーテーマのプラグイン
+
+  use 'keaising/im-select.nvim' -- インサートモードを抜けた時にIMEを自動で切り替えてくれるプラグイン
 end)
