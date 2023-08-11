@@ -9,6 +9,9 @@ require('im_select').setup {
     default_im_select = "com.apple.keylayout.ABC"
 }
 
+-- カラーコードを表示してくれるプラグイン
+require'colorizer'.setup()
+
 -- Git管理されたファイルの変更履歴を表示してくれるプラグイン
 require('gitsigns').setup {
   signs = {
