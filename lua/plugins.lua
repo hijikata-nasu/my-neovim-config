@@ -26,4 +26,6 @@ return require('packer').startup(function(use)
   use 'keaising/im-select.nvim' -- インサートモードを抜けた時にIMEを自動で切り替えてくれるプラグイン
   use 'lewis6991/gitsigns.nvim' -- Gitで管理されてるファイルの変更履歴を表示するプラグイン
   use 'norcalli/nvim-colorizer.lua' -- カラーコードの色を表示してくれるプラグイン
+
+  use { 'neoclide/coc.nvim', branch = "release" }   -- nvimをいい感じにしてくれるプラグインを導入
 end)
