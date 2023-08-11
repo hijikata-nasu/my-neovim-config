@@ -24,4 +24,5 @@ return require('packer').startup(function(use)
   use 'folke/tokyonight.nvim'   -- カラーテーマのプラグイン
 
   use 'keaising/im-select.nvim' -- インサートモードを抜けた時にIMEを自動で切り替えてくれるプラグイン
+  use 'lewis6991/gitsigns.nvim' -- Gitで管理されてるファイルの変更履歴を表示するプラグイン
 end)
