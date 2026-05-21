@@ -26,4 +26,6 @@ require('pckr').add{
   'norcalli/nvim-colorizer.lua'; -- カラーコードの色を表示してくれるプラグイン
 
   'github/copilot.vim'; -- GitHub copilot
+
+  'MeanderingProgrammer/render-markdown.nvim'; -- Markdownのプレビューをしてくれるプラグイン
 }
